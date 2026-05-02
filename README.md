@@ -27,7 +27,7 @@ before starting, ensure you have:
 
 clone or create a new folder:
 
-```bash
+
 mkdir circle-entity-secret-guide
 cd circle-entity-secret-guide
 npm init -y
@@ -36,7 +36,7 @@ npm init -y
 
 ## install dependencies:
 
-```bash
+
 npm install @circle-fin/developer-controlled-wallets dotenv
 npm install -D tsx typescript
 
@@ -54,7 +54,7 @@ step 1 - generate entity secret
 create file : 1.ts
 
 
-```bash
+
 import { generateEntitySecret } from "@circle-fin/developer-controlled-wallets";
 
 const result = generateEntitySecret();
